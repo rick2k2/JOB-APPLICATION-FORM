@@ -1,0 +1,211 @@
+body {
+  /* mobile device responsive */
+  /* ipads and tablet responsive design */
+  /* laptop responsive  */
+  /* Desktop responsive */
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .formContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 30px;
+}
+body .formContainer h1 {
+  font-size: 4vmax;
+  font-weight: 500;
+}
+body .formContainer h1 span {
+  font-size: 3vmax;
+  font-weight: 500;
+}
+body .formContainer .name {
+  display: flex;
+  gap: 100px;
+}
+body .formContainer .name .fname {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .name .lname {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .email_job {
+  display: flex;
+  gap: 100px;
+}
+body .formContainer .email_job .email {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .email_job .job_role {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .address .address_box {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .address .address_box .address_field {
+  padding: 110px 0px;
+}
+body .formContainer .city_pin {
+  display: flex;
+  gap: 100px;
+}
+body .formContainer .city_pin .city {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .city_pin .pin {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .start_date_cv {
+  display: flex;
+  gap: 100px;
+}
+body .formContainer .start_date_cv .start_date {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer .start_date_cv .cv {
+  display: flex;
+  flex-direction: column;
+}
+body .formContainer span {
+  font-size: 18px;
+  font-weight: 600;
+}
+body .formContainer .input, body .formContainer input {
+  padding: 20px 80px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 25px;
+  outline: none;
+}
+body .formContainer .input {
+  padding: 20px 110px;
+}
+body .formContainer .button_container {
+  display: flex;
+  justify-content: flex-end;
+}
+body .formContainer button {
+  background: #FF0000;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body .formContainer .cv1 {
+  border: 1px solid #000;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body .formContainer {
+    width: 100%;
+  }
+  body .name {
+    display: flex;
+    flex-direction: column;
+  }
+  body .email_job {
+    display: flex;
+    flex-direction: column;
+  }
+  body .address .address_box .address_field {
+    padding: 80px 0;
+  }
+  body .city_pin {
+    display: flex;
+    flex-direction: row;
+  }
+  body .start_date_cv {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body .formContainer {
+    width: 100%;
+  }
+  body .name {
+    display: flex;
+    flex-direction: column;
+  }
+  body .email_job {
+    display: flex;
+    flex-direction: column;
+  }
+  body .address .address_box .address_field {
+    padding: 80px 0;
+  }
+  body .city_pin {
+    display: flex;
+    flex-direction: column;
+  }
+  body .start_date_cv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body .formContainer {
+    width: 100%;
+  }
+  body .name {
+    display: flex;
+    flex-direction: column;
+  }
+  body .email_job {
+    display: flex;
+    flex-direction: column;
+  }
+  body .address .address_box .address_field {
+    padding: 80px 0;
+  }
+  body .city_pin {
+    display: flex;
+    flex-direction: row;
+  }
+  body .start_date_cv {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  body .formContainer {
+    width: 100%;
+  }
+  body .name {
+    display: flex;
+    flex-direction: column;
+  }
+  body .email_job {
+    display: flex;
+    flex-direction: column;
+  }
+  body .address .address_box .address_field {
+    padding: 80px 0;
+  }
+  body .city_pin {
+    display: flex;
+    flex-direction: row;
+  }
+  body .start_date_cv {
+    display: flex;
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=index.css.map */

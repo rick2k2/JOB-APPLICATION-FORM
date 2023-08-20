@@ -1,0 +1,243 @@
+$apply-btn-background : #FF0000;
+body{
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        // border: 2px solid red;
+        padding: 50px;
+        gap: 30px;
+        h1{
+            font-size: 4vmax;
+            font-weight: 500;
+            span{
+               font-size: 3vmax; 
+               font-weight: 500;
+            }
+        }
+    
+        .name{
+            display: flex;
+            gap: 100px;
+            .fname{
+                display: flex;
+                flex-direction: column;
+            }
+            .lname{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .email_job{
+            display: flex;
+            gap: 100px;
+            .email{
+                display: flex;
+                flex-direction: column;
+            }
+            .job_role{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .address{
+            .address_box{
+                display: flex;
+                flex-direction: column;
+                .address_field{
+                    padding: 110px 0px;
+                }
+            }
+        }
+        .city_pin{
+            display: flex;
+            gap: 100px;
+            .city{
+                display: flex;
+                flex-direction: column;
+            }
+            .pin{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .start_date_cv{
+            display: flex;
+            gap: 100px;
+            .start_date{
+                display: flex;
+                flex-direction: column;
+            }
+            .cv{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        span{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        %input{
+            padding: 20px 80px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 25px;
+            outline: none;
+        }
+        input{
+            @extend %input;
+        }
+        .input{
+            @extend %input;
+            padding: 20px 110px;
+        }
+        .button_container{
+            display: flex;
+            justify-content: flex-end;
+        }
+        button{
+            background: $apply-btn-background;
+            color: #fff;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            padding: 15px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cv1{
+            border: 1px solid #000;
+        }
+    }
+
+
+/* mobile device responsive */
+@media  screen and (min-width:320px) and (max-width:480px) {
+    .formContainer{
+        width: 100%;
+        // background: rgb(36, 1, 1);
+      }
+      .name{
+        display: flex;
+        flex-direction: column;
+      }
+    .email_job{
+        display: flex;
+        flex-direction: column;
+      }
+    .address{
+        .address_box{
+            .address_field{
+                padding: 80px 0;
+            }
+        }
+      }
+    .city_pin{
+        display: flex;
+        flex-direction: row;
+      }
+    .start_date_cv{
+        display: flex;
+        flex-direction: row;
+      }
+    }
+/* ipads and tablet responsive design */
+@media  screen and (min-width:481px) and (max-width:768px) {
+  .formContainer{
+    width: 100%;
+    // background: red;
+  }
+  .name{
+    display: flex;
+    flex-direction: column;
+  }
+.email_job{
+    display: flex;
+    flex-direction: column;
+  }
+.address{
+    .address_box{
+        .address_field{
+            padding: 80px 0;
+        }
+    }
+  }
+  .city_pin{
+    display: flex;
+    flex-direction: column;
+  }
+.start_date_cv{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* laptop responsive  */
+@media  screen and (min-width:769px) and (max-width:1024px) {
+    .formContainer{
+        width: 100%;
+      }
+      .name{
+        display: flex;
+        flex-direction: column;
+      }
+    .email_job{
+        display: flex;
+        flex-direction: column;
+      }
+    .address{
+        .address_box{
+            .address_field{
+                padding: 80px 0;
+            }
+        }
+      }
+    .city_pin{
+        display: flex;
+        flex-direction: row;
+      }
+    .start_date_cv{
+        display: flex;
+        flex-direction: row;
+      }
+    }
+/* Desktop responsive */
+@media  screen and (min-width:1025px) and (max-width:1200px) {
+    .formContainer{
+        width: 100%;
+      }
+      .name{
+        display: flex;
+        flex-direction: column;
+      }
+    .email_job{
+        display: flex;
+        flex-direction: column;
+      }
+    .address{
+        .address_box{
+            .address_field{
+                padding: 80px 0;
+            }
+        }
+      }
+    .city_pin{
+        display: flex;
+        flex-direction: row;
+      }
+    .start_date_cv{
+        display: flex;
+        flex-direction: row;
+      }
+}
+
+}
+
